@@ -130,7 +130,8 @@ header nav ul li a {
     background: url("/images/steps-icon-3.png") no-repeat top center;
 }
 
-h4 {
+h4,
+h3 {
     font-size: 24px;
     color: #444;
 }
@@ -195,4 +196,75 @@ article h4{
 }
 .boutton-2:hover{
     background-color: #02b8dd;
+}
+
+/* css  contact*/
+
+#contact{
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h3{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto  20px auto;
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 20px;
+    
+}
+
+form{
+    margin: 60px 0px 20px 0 ;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color:#777
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.boutton-3{
+    color: white;
+    font-size: 20px;
+    font-weight: borld;
+    background-color: #02b8dd;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+}
+
+.boutton-3:hover{
+    color: white;
+    background-color:#444;
+   
+}
+
+/*88footer88*/
+
+footer{
+    height: 260px;
+    background-color: #444;
+}
+
+footer h1{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
 }
